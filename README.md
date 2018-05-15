@@ -1,7 +1,7 @@
 # Thai National ID Validator
 
 [![Build Status](https://travis-ci.org/jukbot/thai-national-id-validator.svg?branch=master)](https://travis-ci.org/jukbot/thai-national-id-validator)
-[![codecov-svg](https://img.shields.io/codecov/c/github/jukbot/thai-national-id-validator.svg)](https://codecov.io/gh/jukbot/thai-national-id-validator)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/56464056015c4ca18822e5c263615b04)](https://www.codacy.com/app/jukbot/thai-national-id-validator?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jukbot/thai-national-id-validator&amp;utm_campaign=Badge_Grade)
 [![npm version](https://badge.fury.io/js/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
