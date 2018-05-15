@@ -1,10 +1,11 @@
-# National ID Validator
+# Thai National ID Validator
 
-[![Build Status](https://travis-ci.org/uNmAnNeR/imaskjs.svg?branch=master)](https://travis-ci.org/uNmAnNeR/imaskjs)
+[![Build Status](https://travis-ci.org/jukbot/thai-national-id-validator.svg?branch=master)](https://travis-ci.org/jukbot/thai-national-id-validator)
 [![npm version](https://badge.fury.io/js/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![License: MIT](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![quality](https://npm.packagequality.com/shield/promptpay-qr.svg)]()
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+A simpler way to validate Thai Citizen Card ID.
 
 ## Further Plans
 * Go Language Implementation
@@ -24,6 +25,12 @@ $ npm install thai-id-validator
 $ yarn add thai-id-validator
 ```
 
+## Data Type
+| Input        | Output           
+| ------------- |:-------------:| 
+| String        | boolean | 
+
+
 ## Usage
 
 For general, Import script to html
@@ -38,7 +45,6 @@ var result = validThaiCitizenID(‘110170020723’);
 </script>
 ```
 
-
 For ES Module, In Javascript file
 
 ```javascript
@@ -48,6 +54,24 @@ import * as validate from 'thai-id-validator';
 let result = validate.ThaiCitizenID(‘110170020723’);
 // return true 
 ```
+
+## Test Cases
+
+To run test cases run the following command
+```bash
+$ npm run test
+```
+
+| Cases         | Result
+| ------------- |:-------------:| 
+| 1101700207050 | ✅ | 
+| 110170020705  | ❌ | 
+| 11017002070d3 | ❌ | 
+| rytege54fsfsf | ❌ | 
+| 0             | ❌ | 
+| ''            | ❌ | 
+| null          | ❌ | 
+| 'blablabla'   | ❌ | 
 
 ## Compatibility
 
