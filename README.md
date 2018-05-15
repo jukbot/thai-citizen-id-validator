@@ -1,7 +1,7 @@
 # National ID Validator
 
 [![Build Status](https://travis-ci.org/uNmAnNeR/imaskjs.svg?branch=master)](https://travis-ci.org/uNmAnNeR/imaskjs)
-[![npm version](https://badge.fury.io/js/imask.svg)](https://badge.fury.io/jas/imask)
+[![npm version](https://badge.fury.io/js/imask.svg)](https://badge.fury.io/jas/thai-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -19,25 +19,32 @@
 ## Installation
 
 ```bash
-$ npm install national-id-validator
+$ npm install thai-id-validator
 # or
-$ yarn add national-id-validator
+$ yarn add thai-id-validator
 ```
 
 ## Usage
 
-Import script to html
+For general, Import script to html
 
 ```html
-<script src="../validate.min.js"></script>
-```
-
-For modern browser (Support module)
-```javascript
-import * as validate from 'validate';
+<script src="../validator.min.js"></script>
 ```
 
 ```javascript
+<script>
+var result = validThaiCitizenID(‘110170020723’);
+</script>
+```
+
+
+For ES Module, In Javascript file
+
+```javascript
+'use strict';
+import * as validate from 'thai-id-validator';
+
 let result = validate.ThaiCitizenID(‘110170020723’);
 // return true 
 ```
@@ -46,9 +53,9 @@ let result = validate.ThaiCitizenID(‘110170020723’);
 
 Supports all major browsers and IE11+ 
 
-| [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera | 
+| [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>IE / Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera | 
 | ---------: | ---------: | ---------: | ---------: | ---------:
-| 17+ | 44+ | 45+ | 11.1+ | 32+
+| 11+ | 44+ | 45+ | 11+ | 32+
 
 
 ## Contribution

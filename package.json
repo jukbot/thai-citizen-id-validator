@@ -1,5 +1,5 @@
 {
-  "name": "thai-national-id-validator",
+  "name": "thai-id-validator",
   "version": "1.0.0",
   "description": "Thai National ID validator",
   "main": "index.js",
