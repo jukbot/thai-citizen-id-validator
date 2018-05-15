@@ -4,8 +4,8 @@
   "description": "Thai National ID validator",
   "main": "index.js",
   "directories": {
+    "dist": "dist",
     "lib": "lib",
-    "doc": "docs",
     "test": "test"
   },
   "scripts": {

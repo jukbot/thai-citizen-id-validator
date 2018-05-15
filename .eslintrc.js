@@ -14,7 +14,6 @@ module.exports = {
     'plugin:jest/recommended'
   ],
   rules: {
-    'quotes': [ 2, 'single'],
     'no-console': 'off'
   }
 }
