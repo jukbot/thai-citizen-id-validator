@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    max-height: 100vh;
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+    font-size: 1rem;
+  }
+  
+  /* Reset */
+  input,
+  select,
+  textarea {
+    appearance: none;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  h1,
+  h3,
+  p {
+    text-align: center;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  form {
+    margin: 16px auto;
+    max-width: 700px;
+    padding: 0 40px;
+  }
+  
+  button {
+    background-color: white;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,.05), 0 1px 3px rgba(0,0,0,.08);
+    display: block;
+    font-size: 1rem;
+    margin: 0 auto;
+    color: #333333;
+    padding: 12px 40px;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  button:hover:not([disabled]) {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 10px rgba(0,0,0,.05), 0 3px 6px rgba(0,0,0,.08);
+  }
+  
+  button:disabled {
+    background-color: #eeeeee;
+    cursor: not-allowed;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .input:focus {
+    border-color: #C0C0C0;
+  }
+  
+  .input::placeholder {
+    color: #dddddd;
+  }
+  
+  .text {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    line-height: 0;
+  }
+  
+  .error {
+    color: red;
+    background-color: rgba(250, 0, 0, 0.07);
+  }
+  
+  .success {
+    color: green;
+    background-color: rgba(0, 200, 0, 0.09);
+  }
+  
+  #errorMessage,
+  #successMessage {
+    display: none;
+  }
+  

@@ -1,0 +1,30 @@
+{
+  "name": "thai-national-id-validator",
+  "version": "1.0.0",
+  "description": "Thai National ID validator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukbot/thai-national-id-validator.git"
+  },
+  "author": "Juk",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jukbot/thai-national-id-validator/issues"
+  },
+  "homepage": "https://github.com/jukbot/thai-national-id-validator#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
