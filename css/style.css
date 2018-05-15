@@ -66,6 +66,7 @@
   }
   
   button:disabled {
+    color: #C0C0C0;
     background-color: #eeeeee;
     cursor: not-allowed;
   }
