@@ -1,5 +1,4 @@
 node_modules/
 coverage/
-*-lock.json
 .DS_Store
 npm-debug.log
