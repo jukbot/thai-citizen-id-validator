@@ -23,6 +23,7 @@
   "homepage": "https://jukbot.github.io/thai-national-id-validator",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
     "cross-env": "^5.1.5",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.11.0",
