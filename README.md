@@ -1,10 +1,10 @@
 # National ID Validator
 
 [![Build Status](https://travis-ci.org/uNmAnNeR/imaskjs.svg?branch=master)](https://travis-ci.org/uNmAnNeR/imaskjs)
-[![npm version](https://badge.fury.io/js/imask.svg)](https://badge.fury.io/jas/thai-id-validator)
+[![npm version](https://badge.fury.io/js/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+[![quality](https://npm.packagequality.com/shield/promptpay-qr.svg)]()
 
 ## Further Plans
 * Go Language Implementation
