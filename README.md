@@ -1,6 +1,7 @@
 # Thai National ID Validator
 
 [![Build Status](https://travis-ci.org/jukbot/thai-national-id-validator.svg?branch=master)](https://travis-ci.org/jukbot/thai-national-id-validator)
+[![codecov-svg](https://img.shields.io/codecov/c/github/jukbot/thai-national-id-validator.svg)](https://codecov.io/gh/jukbot/thai-national-id-validator)
 [![npm version](https://badge.fury.io/js/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -33,25 +34,24 @@ $ yarn add thai-id-validator
 
 ## Usage
 
-For general, Import script to html
-
-```html
-<script src="../validator.min.js"></script>
-```
+#### Javascipt ES5, Import script to html
 
 ```javascript
-<script>
-var result = validThaiCitizenID(‘110170020723’);
-</script>
+var validThaiID = require('thai-id-validator') // for ES5
+
+var result = validThaiID(‘110170020723’);
+// return true
 ```
 
-For ES Module, In Javascript file
+#### Javascript ES6 Module 
+
+In Javascript file
 
 ```javascript
 'use strict';
-import * as validate from 'thai-id-validator';
+import validThaiID from 'thai-id-validator';
 
-let result = validate.ThaiCitizenID(‘110170020723’);
+let result = validThaiID(‘110170020723’);
 // return true 
 ```
 
@@ -69,9 +69,12 @@ $ npm run test
 | 11017002070d3 | ❌ | 
 | rytege54fsfsf | ❌ | 
 | 0             | ❌ | 
+| '-'           | ❌ |
 | ''            | ❌ | 
 | null          | ❌ | 
 | 'blablabla'   | ❌ | 
+
+Tested with Chai
 
 ## Compatibility
 
