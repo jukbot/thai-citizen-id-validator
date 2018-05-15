@@ -4,7 +4,9 @@
   "description": "Thai National ID validator",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "doc": "docs",
+    "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/jukbot/thai-national-id-validator.git"
   },
-  "author": "Juk",
+  "author": "Juk V.",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/jukbot/thai-national-id-validator/issues"
   },
-  "homepage": "https://github.com/jukbot/thai-national-id-validator#readme",
+  "homepage": "https://jukbot.github.io/thai-national-id-validator",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint-config-standard": "^11.0.0",
