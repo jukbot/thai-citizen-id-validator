@@ -5,6 +5,11 @@ addons:
   firefox: latest
   chrome: stable
 cache:
+  yarn: true
   directories:
     - "node_modules"
-script: npm run coverage
+before_install:
+  - npm i -g npm@latest
+install:
+  - npm ci    
+script: npm run test

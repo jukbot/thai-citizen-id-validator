@@ -12,6 +12,7 @@ A simpler way to validate Thai Citizen Card ID.
 * Go Language Implementation
 * C# Language Implementation
 * Java/Scala Language Implementation
+* Thai Passport Number Validation
 
 
 # Read the article
@@ -29,43 +30,48 @@ $ yarn add thai-id-validator
 ## Data Type
 | Input        | Output           
 | ------------- |:-------------:| 
-| String        | boolean | 
+| String        | boolean       | 
 
 
 ## Usage
 
-#### Javascipt ES5, Import script to html
+#### Javascipt ES5
+
+Just import script with commonjs
 
 ```javascript
 var validThaiID = require('thai-id-validator') // for ES5
 
-var result = validThaiID(‘110170020723’);
+var result = validThaiID(‘1101700207030’);
 // return true
 ```
 
 #### Javascript ES6 Module 
 
-In Javascript file
+In Javascript file, you can use import, export modules
 
 ```javascript
 'use strict';
 import validThaiID from 'thai-id-validator';
 
-let result = validThaiID(‘110170020723’);
+let result = validThaiID(‘1101700207030’);
 // return true 
 ```
 
-## Test Cases
+## Test
 
-To run test cases run the following command
+To run all test cases run the following command
 ```bash
 $ npm run test
 ```
+You can edit validator.test.js too add your custom test case.
 
-| Cases         | Result
+
+| Test Cases    | Result
 | ------------- |:-------------:| 
-| 1101700207050 | ✔️ | 
-| 110170020705  | ❌ | 
+| 1101700207030 | ✅ | 
+| 1101700230705 | ❌ | 
+| 110170023073  | ❌ | 
 | 11017002070d3 | ❌ | 
 | rytege54fsfsf | ❌ | 
 | 0             | ❌ | 
@@ -74,7 +80,13 @@ $ npm run test
 | null          | ❌ | 
 | 'blablabla'   | ❌ | 
 
-Tested with Chai
+`(Tested with Jest)`
+
+
+### Test Result Screenshot
+
+ <img src="test-result.png" width="350"/>
+
 
 ## Compatibility
 
@@ -87,6 +99,6 @@ Supports all major browsers and IE11+
 
 ## Contribution
 
-Contribute are always welcome. If you found any bugs please report the issue here https://github.com/jukbot/thai-national-id-validator/issues.
+👩🏻‍💻 Contribute are always welcome. If you found any bugs please report the issue here https://github.com/jukbot/thai-national-id-validator/issues.
 
-Thank you 
+Thank you :D

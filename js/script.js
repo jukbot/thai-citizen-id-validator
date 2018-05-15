@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     function validNationalID(id) {
-      if (id.length != 13) return false;
+      if (id == null || id.length != 13) return false;
       // STEP1 - get only first 12 digits
       for (i = 0, sum = 0; i < 12; i++) {
         // STEP 2 - multiply each digit with each index (reverse)

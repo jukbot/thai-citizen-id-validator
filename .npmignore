@@ -2,4 +2,4 @@
 .npmignore
 .travis.yml
 docs/
-test/
+jest_result.png
