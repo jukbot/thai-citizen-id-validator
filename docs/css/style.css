@@ -8,9 +8,9 @@
 
 body {
   max-height: 100vh;
-  color: #333333;
   font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
   font-size: 1rem;
+  color: #333333;
 }
 
 /* Reset */
@@ -28,7 +28,7 @@ textarea {
 }
 
 h1,
-h3,
+h2,
 p {
   text-align: center;
 }
@@ -96,13 +96,14 @@ button:disabled {
 }
 
 .text {
+  max-width: 700px;
   margin: 2rem auto;
   padding: 1.5rem;
   line-height: 0;
 }
 
 .error {
-  color: red;
+  color: FireBrick;
   background-color: rgba(250, 0, 0, 0.07);
 }
 
