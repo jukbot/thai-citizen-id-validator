@@ -9,7 +9,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-with-coverage": "jest --coverage && cat ./coverage/lcov.info | codacy-coverage"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,8 @@
     "eslint-plugin-standard": "^3.1.0",
     "jest": "^22.4.3",
     "regenerator-runtime": "^0.11.1"
+  },
+  "dependencies": {
+    "codacy-coverage": "^3.0.0"
   }
 }
