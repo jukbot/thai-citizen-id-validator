@@ -23,7 +23,7 @@ A simpler way to validate 🇹🇭 Thai Citizen Card ID.
 
 ## Installation
 
-```bash
+``` bash
 $ npm install thai-id-validator
 # or
 $ yarn add thai-id-validator
@@ -41,7 +41,7 @@ $ yarn add thai-id-validator
 
 Just import script with commonjs
 
-```javascript
+``` javascript
 var validThaiID = require('thai-id-validator') // for ES5
 
 var result = validThaiID(‘1101700207030’);
@@ -52,7 +52,7 @@ var result = validThaiID(‘1101700207030’);
 
 In Javascript file, you can use import, export modules
 
-```javascript
+``` javascript
 'use strict';
 import validThaiID from 'thai-id-validator';
 
@@ -64,7 +64,7 @@ let result = validThaiID(‘1101700207030’);
 
 To run all test cases run the following command
 
-```bash
+``` bash
 npm run test
 ```
 
@@ -93,7 +93,7 @@ You can edit validator.test.js too add your custom test case.
 
 Supports all major browsers and IE11+
 
-| [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px"/>](http://caniuse.com/#feat=fetch)</br>IE / Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera | 
+| [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px"/>](http://caniuse.com/#feat=fetch)</br>IE / Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera |
 | ---------: | ---------: | ---------: | ---------: | ---------:
 | 11+ | 44+ | 45+ | 11+ | 32+
 
