@@ -1,7 +1,7 @@
 const validate = require("../lib/validator");
 
 test("Case 1: Valid ID Correct pattern", () => {
-  expect(validate("1101700207030")).toBe(true);
+  expect(validate("1112034563562")).toBe(true);
 });
 
 test("Case 2: Invalid ID Wrong pattern", () => {
