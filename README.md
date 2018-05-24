@@ -72,7 +72,7 @@ You can edit validator.test.js too add your custom test case.
 
 | Test Cases    | Result
 | ------------- |:-------------:|
-| 1101700207030 | ✅ |
+| 1112034563562 | ✅ |
 | 1101700230705 | ❌ |
 | 110170023073  | ❌ |
 | 11017002070d3 | ❌ |
