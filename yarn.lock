@@ -1268,8 +1268,8 @@ eslint-plugin-import@^2.12.0:
     resolve "^1.6.0"
 
 eslint-plugin-jest@^21.17.0:
-  version "21.17.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.17.0.tgz#fdb00e2f9ff16987d6ebcf2c75c7add105760bbb"
+  version "21.21.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.21.0.tgz#f0afd138c4acb5f0cd7698318fb49c7d49f3bf45"
 
 eslint-plugin-node@^6.0.1:
   version "6.0.1"
