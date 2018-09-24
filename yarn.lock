@@ -969,8 +969,8 @@ co@^4.6.0:
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
 codacy-coverage@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/codacy-coverage/-/codacy-coverage-3.0.0.tgz#d4a0286b01aa0dfa10195b9bcff69c345de996b0"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/codacy-coverage/-/codacy-coverage-3.1.0.tgz#a49a75d962733dc0b524b3d5eb3b6367d5bece59"
   dependencies:
     bluebird "^3.5.x"
     commander "^2.x"
