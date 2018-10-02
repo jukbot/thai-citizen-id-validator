@@ -1,6 +1,6 @@
 {
   "name": "thai-id-validator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Thai National ID validator",
   "main": "dist/validator.min.js",
   "directories": {
@@ -25,18 +25,18 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.0.1",
+    "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.1.0",
+    "jest": "^23.6.0",
     "regenerator-runtime": "^0.12.1"
   },
   "dependencies": {
-    "codacy-coverage": "^3.0.0"
+    "codacy-coverage": "^3.1.0"
   }
 }
