@@ -1,5 +1,6 @@
 .editorconfig
 .npmignore
 .travis.yml
+package-lock.json
 docs/
 jest_result.png
