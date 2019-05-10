@@ -23,20 +23,21 @@
   },
   "homepage": "https://jukbot.github.io/thai-national-id-validator",
   "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.8.0",
     "babel-preset-env": "^1.7.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.24.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.6.0",
-    "regenerator-runtime": "^0.12.1"
+    "jest": "^24.8.0",
+    "regenerator-runtime": "^0.13.2"
   },
   "dependencies": {
-    "codacy-coverage": "^3.1.0"
+    "codacy-coverage": "^3.4.0"
   }
 }

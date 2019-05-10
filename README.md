@@ -4,17 +4,13 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/56464056015c4ca18822e5c263615b04)](https://www.codacy.com/app/jukbot/thai-national-id-validator?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jukbot/thai-national-id-validator&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/56464056015c4ca18822e5c263615b04)](https://www.codacy.com/app/jukbot/thai-national-id-validator?utm_source=github.com&utm_medium=referral&utm_content=jukbot/thai-national-id-validator&utm_campaign=Badge_Coverage)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![WCAG-Zoo Compliant](https://img.shields.io/badge/WCAG_Zoo-AA-yellowgreen.svg)](https://github.com/LegoStormtroopr/wcag-zoo)
 [![npm](https://img.shields.io/npm/v/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A simpler way to validate Thai Citizen Card ID. 🇹🇭
 
 ## Further Plans
 
-* Go Language Implementation
-* C# Language Implementation
-* Java/Scala Language Implementation
+* Go Language Implementation Example
 * Thai Passport Number Validation
 
 ## Read the article
