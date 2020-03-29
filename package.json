@@ -24,6 +24,7 @@
   },
   "homepage": "https://jukbot.github.io/thai-citizen-id-validator",
   "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^25.2.3",
     "jest": "^25.2.3",
