@@ -9,33 +9,26 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "standard",
     "test": "jest",
     "test-with-coverage": "jest --coverage && cat ./coverage/lcov.info | codacy-coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jukbot/thai-national-id-validator.git"
+    "url": "git+https://github.com/jukbot/thai-citizen-id-validator.git"
   },
   "author": "Juk V.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jukbot/thai-national-id-validator/issues"
+    "url": "https://github.com/jukbot/thai-citizen-id-validator/issues"
   },
-  "homepage": "https://jukbot.github.io/thai-national-id-validator",
+  "homepage": "https://jukbot.github.io/thai-citizen-id-validator",
   "devDependencies": {
-    "@babel/preset-env": "^7.9.0",
-    "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^25.2.3",
-    "babel-preset-env": "^1.7.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
     "jest": "^25.2.3",
-    "regenerator-runtime": "^0.13.5"
+    "regenerator-runtime": "^0.13.5",
+    "standard": "^14.3.3"
   },
   "dependencies": {
     "codacy-coverage": "^3.4.0"
