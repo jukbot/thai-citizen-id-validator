@@ -19,9 +19,9 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "babel-jest": "^25.4.0",
+    "codacy-coverage": "^3.4.0",
     "jest": "^25.4.0",
     "regenerator-runtime": "^0.13.5",
-    "standard": "^14.3.3",
-    "codacy-coverage": "^3.4.0"
+    "standard": "^14.3.3"
   }
 }
