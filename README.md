@@ -1,6 +1,6 @@
 # Thai National ID Validator
 
-[![Build Status](https://travis-ci.org/jukbot/thai-national-id-validator.svg?branch=master)](https://travis-ci.org/jukbot/thai-national-id-validator)
+[![Build Status](https://travis-ci.org/jukbot/thai-citizen-id-validator.svg?branch=master)](https://travis-ci.org/jukbot/thai-citizen-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/v/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 
@@ -93,7 +93,7 @@ Supports all major browsers and IE11+
 
 ## Issues
 
-If you found any 🐞 or feedback, please report the issue [here](https://github.com/jukbot/thai-national-id-validator/issues)
+If you found any 🐞 or feedback, please report the issue [here](https://github.com/jukbot/thai-citizen-id-validator/issues)
 
 ## Contribution
 
