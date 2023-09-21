@@ -1,6 +1,8 @@
 version: "1.0"
 linter: jetbrains/qodana-js:2023.2
+bootstrap: pnpm install
 include:
+  - name: Eslint
   - name: CheckDependencyLicenses
 exclude:
   - name: All
