@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   btn.addEventListener("click", handleSubmit);
 
-  function handleInput(event) {
+  function handleInput() {
     const value = mask.unmaskedValue;
     const maxLength = 13;
     const regex = /^[0-9]\d*$/;
@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btn.disabled = !(isValidLength && isValidFormat && isThaiIDValid);
 
-    input.setAttribute("aria-invalid", !isThaiIDValid);
-    error.setAttribute("aria-hidden", isThaiIDValid);
-    success.setAttribute("aria-hidden", !isThaiIDValid);
+    input.setAttribute("aria-invalid", String(!isThaiIDValid));
+    error.setAttribute("aria-hidden", String(isThaiIDValid));
+    success.setAttribute("aria-hidden", String(!isThaiIDValid));
     error.style.display = isThaiIDValid ? "none" : "block";
     success.style.display = isThaiIDValid ? "block" : "none";
   }
