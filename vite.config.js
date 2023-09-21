@@ -2,6 +2,11 @@ module.exports = {
   cors: {
     origin: "http://localhost:3000",
   },
+  test: {
+    coverage: {
+      provider: "istanbul",
+    },
+  },
   build: {
     minify: "esbuild",
     outDir: "./dist",
