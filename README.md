@@ -2,7 +2,7 @@
 
 # Thai Citizen ID Validator
 
-[![Build Status](https://travis-ci.org/jukbot/thai-citizen-id-validator.svg?branch=master)](https://travis-ci.org/jukbot/thai-citizen-id-validator)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/v/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 
@@ -88,6 +88,16 @@ You can edit validator.test.js too add your custom test case.
 ### Test Result Screenshot
 
  <img src="test-result.png" width="400"/>
+
+### How to upload test coverage report to codacy
+
+```zsh
+export CODACY_PROJECT_TOKEN=xxxxxxxxx
+
+pnpm run coverage
+
+bash <(curl -Ls https://coverage.codacy.com/get.sh)
+```
 
 ## Compatibility
 
