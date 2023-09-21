@@ -9,6 +9,14 @@
     "national-id"
   ],
   "main": "dist/validator.min.js.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukbot/thai-citizen-id-validatorr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jukbot/thai-citizen-id-validator/issues"
+  },
+  "homepage": "https://github.com/jukbot/thai-citizen-id-validator#readme",
   "directories": {
     "dist": "dist",
     "lib": "lib",
@@ -22,7 +30,7 @@
     "coverage": "nyc --reporter=lcov --reporter=text-summary npm run test"
   },
   "author": "Juk V.",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "devDependencies": {
     "@vitest/coverage-istanbul": "^0.34.5",
     "eslint": "^8.49.0",
