@@ -1,7 +1,4 @@
 module.exports = {
-  cors: {
-    origin: "http://localhost:3000",
-  },
   test: {
     coverage: {
       provider: "istanbul",
@@ -13,7 +10,7 @@ module.exports = {
     lib: {
       entry: "./lib/validator.js",
       name: "validateThaiID",
-      fileName: "validator.min.js",
+      fileName: (format) => `validator.${format}.js`,
     },
   },
 };

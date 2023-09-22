@@ -1,3 +1,5 @@
+import validateThaiID from "../../lib/validator";
+
 document.addEventListener("DOMContentLoaded", () => {
   const input = document.getElementById("citizenid");
   const btn = document.getElementById("button");
@@ -27,8 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
     input.setAttribute("aria-invalid", String(!isThaiIDValid));
     error.setAttribute("aria-hidden", String(isThaiIDValid));
     success.setAttribute("aria-hidden", String(!isThaiIDValid));
-    error.style.display = isThaiIDValid ? "none" : "block";
-    success.style.display = isThaiIDValid ? "block" : "none";
+    error.style.display = isValidLength
+      ? !isThaiIDValid
+        ? "block"
+        : "none"
+      : "none";
+    success.style.display = isValidLength && isThaiIDValid ? "block" : "none";
   }
 
   function disableEnterSubmit(event) {
