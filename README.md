@@ -25,6 +25,10 @@ A simpler way to validate Thai Citizen Card ID. 🇹🇭
 $ npm install thai-id-validator
 # or
 $ yarn add thai-id-validator
+# or
+$ pnpm add thai-id-validator
+# or
+$ bun add thai-id-validator
 ```
 
 ## Data Type
