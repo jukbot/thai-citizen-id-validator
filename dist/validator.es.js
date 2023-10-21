@@ -1,11 +1,12 @@
-function c(t) {
-  if (!/^\d{13}$/.test(t))
+function t(u) {
+  if (!/^\d{13}$/.test(u))
     return !1;
-  let u = 0;
+  let i = 0;
   for (let e = 0; e < 12; e++)
-    u += Number(t[e]) * (13 - e);
-  return (11 - u % 11) % 10 === Number(t[12]);
+    i += Number(u[e]) * (13 - e);
+  return (11 - i % 11) % 10 === Number(u[12]);
 }
+typeof module < "u" && typeof module.exports < "u" ? (module.exports = t, exports.default = t, exports.isValidThaiID = t) : window.isValidThaiID = t;
 export {
-  c as default
+  t as default
 };
