@@ -1,5 +1,5 @@
 version: "1.0"
-linter: jetbrains/qodana-js:2024.1
+linter: jetbrains/qodana-js:latest
 include:
   - name: Eslint
   - name: CheckDependencyLicenses
@@ -7,3 +7,5 @@ exclude:
   - name: All
     paths:
       - test/*
+      - dist/*
+      - docs/*
