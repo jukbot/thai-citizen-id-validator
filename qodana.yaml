@@ -1,5 +1,6 @@
 version: "1.0"
-linter: jetbrains/qodana-js:latest
+linter: jetbrains/qodana-js:2024.1
+bootstrap: bun install
 exclude:
   - name: All
     paths:
