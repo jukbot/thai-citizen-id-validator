@@ -1,15 +1,12 @@
-function u(e) {
-  if (/^\d{13}$/.test(e)) {
-    if (e[0] === 0)
-      return !1;
-  } else
+function t(i) {
+  if (!/^\d{13}$/.test(i))
     return !1;
-  let s = 0;
-  for (let t = 0; t < 12; t++)
-    s += Number(e[t]) * (13 - t);
-  return (11 - s % 11) % 10 === Number(e[12]);
+  let o = 0;
+  for (let e = 0; e < 12; e++)
+    o += Number(i[e]) * (13 - e);
+  return (11 - o % 11) % 10 === Number(i[12]);
 }
-typeof module < "u" && typeof module.exports < "u" ? (module.exports = u, exports.default = u, exports.isValidThaiID = u) : window.isValidThaiID = u;
+typeof module < "u" && typeof module.exports < "u" ? (module.exports = t, exports.default = t, exports.isValidThaiID = t) : typeof window < "u" && (window.isValidThaiID = t);
 export {
-  u as default
+  t as default
 };

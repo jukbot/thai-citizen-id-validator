@@ -1,7 +1,7 @@
 module.exports = {
-  root: "docs",
-  base: "./",
+  root: 'docs',
+  base: './',
   build: {
-    outDir: "../dist",
-  },
-};
+    outDir: '../dist'
+  }
+}

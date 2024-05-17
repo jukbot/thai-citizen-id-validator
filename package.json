@@ -38,22 +38,26 @@
     "build:lib": "vite build",
     "build:docs": "vite build --config vite-docs.config.js",
     "lint": "standard",
-    "test": "vitest run",
+    "test": "bun test",
     "coverage": "nyc --reporter=lcov --reporter=text-summary npm run test"
   },
   "author": "Juk V.",
   "license": "MIT",
   "devDependencies": {
-    "@vitest/coverage-istanbul": "^1.6.0",
     "eslint": "^9.2.0",
     "nyc": "^15.1.0",
     "standard": "^17.1.0",
-    "vite": "^5.2.11",
-    "vitest": "^1.6.0"
+    "vite": "^5.2.11"
   },
   "browserslist": [
     "last 1 version",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "standard": {
+    "ignore": [
+      "dist/**",
+      "docs/**"
+    ]
+  }
 }
