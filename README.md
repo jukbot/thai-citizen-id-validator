@@ -79,6 +79,7 @@ You can edit validator.test.js too add your custom test case.
 | Test Cases      | Result |
 | --------------- | :----: |
 | '1112034563562' |   ✅   |
+| '0113200420331' |   ✅   |
 | '1101700230705' |   ❌   |
 | '110170023073'  |   ❌   |
 | '11017002070d3' |   ❌   |
@@ -89,7 +90,6 @@ You can edit validator.test.js too add your custom test case.
 | null            |   ❌   |
 | undefined       |   ❌   |
 | 'blablabla'     |   ❌   |
-| '0113200420331' |   ❌   |
 
 `(Tested with Bun)`
 
