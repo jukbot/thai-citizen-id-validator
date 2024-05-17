@@ -76,20 +76,22 @@ npm run test
 
 You can edit validator.test.js too add your custom test case.
 
-| Test Cases    | Result |
-| ------------- | :----: |
-| 1112034563562 |   ✅   |
-| 1101700230705 |   ❌   |
-| 110170023073  |   ❌   |
-| 11017002070d3 |   ❌   |
-| rytege54fsfsf |   ❌   |
-| 0             |   ❌   |
-| '-'           |   ❌   |
-| ''            |   ❌   |
-| null          |   ❌   |
-| 'blablabla'   |   ❌   |
+| Test Cases      | Result |
+| --------------- | :----: |
+| '1112034563562' |   ✅   |
+| '1101700230705' |   ❌   |
+| '110170023073'  |   ❌   |
+| '11017002070d3' |   ❌   |
+| 'rytege54fsfsf' |   ❌   |
+| 0               |   ❌   |
+| '-'             |   ❌   |
+| ''              |   ❌   |
+| null            |   ❌   |
+| undefined       |   ❌   |
+| 'blablabla'     |   ❌   |
+| '0113200420331' |   ❌   |
 
-`(Tested with Vitest)`
+`(Tested with Bun)`
 
 ### Test Result Screenshot
 
@@ -100,18 +102,14 @@ You can edit validator.test.js too add your custom test case.
 ```zsh
 export CODACY_PROJECT_TOKEN=xxxxxxxxx
 
-pnpm run coverage
+bun run coverage
 
 bash <(curl -Ls https://coverage.codacy.com/get.sh)
 ```
 
 ## Compatibility
 
-Supports all major browsers and IE11+
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/edge/edge.png" alt="Edge" width="64px" height="64px"/>](http://caniuse.com/#feat=fetch) </br> Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch) </br> Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch) </br> Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch) </br> Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch) </br> Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch) </br> Opera |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                                                                                                                                                                           ✅ |                                                                                                                                                                                        ✅ |                                                                                                                                                                                    ✅ |                                                                                                                                                                                    ✅ |                                                                                                                                                                                    ✅ |
+Tested on all modern browsers ✅
 
 ## Issues
 
