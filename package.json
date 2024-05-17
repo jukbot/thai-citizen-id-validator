@@ -1,6 +1,6 @@
 {
   "name": "thai-id-validator",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Thai Citizen ID validator with zero dependencies",
   "keywords": [
     "thai-citizen-id",
@@ -44,12 +44,12 @@
   "author": "Juk V.",
   "license": "MIT",
   "devDependencies": {
-    "@vitest/coverage-istanbul": "^0.34.6",
-    "eslint": "^8.52.0",
+    "@vitest/coverage-istanbul": "^1.6.0",
+    "eslint": "^9.2.0",
     "nyc": "^15.1.0",
     "standard": "^17.1.0",
-    "vite": "^4.5.0",
-    "vitest": "^0.34.6"
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
   },
   "browserslist": [
     "last 1 version",

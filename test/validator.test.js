@@ -45,4 +45,8 @@ describe("validateThaiID Function", () => {
   test("Case 11: Invalid ID Undefined input", () => {
     expect(validateThaiID(undefined)).toBeFalsy();
   });
+
+  test("Case 12: First digit of ID start with 0", () => {
+    expect(validateThaiID("0113200420331")).toBeTruthy();
+  });
 });
