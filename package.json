@@ -1,6 +1,6 @@
 {
   "name": "thai-id-validator",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Thai Citizen ID validator with zero dependencies",
   "keywords": [
     "thai-citizen-id",
