@@ -95,7 +95,7 @@ You can edit validator.test.js too add your custom test case.
 
 ### Test Result Screenshot
 
- <img src="test-result.png" width="400"/>
+ <img src="test-result.png" width="500"/>
 
 ### How to upload test coverage report to codacy
 
