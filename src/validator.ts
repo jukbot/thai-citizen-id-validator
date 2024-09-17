@@ -25,7 +25,7 @@ function isValidThaiID(id: string | number): boolean {
 }
 
 // Export the function.
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined' || window === undefined) {
   module.exports = isValidThaiID
   exports.default = isValidThaiID
   exports.isValidThaiID = isValidThaiID
@@ -33,4 +33,7 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   // Support legacy version of the browser.
   // @ts-ignore
   window.isValidThaiID = isValidThaiID
+} else {
+  // @ts-ignore
+  global.isValidThaiID = isValidThaiID
 }
