@@ -1,4 +1,4 @@
-import validateThaiID from '../../lib/validator'
+import validateThaiID from '../../dist/browser/validator.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   const input = document.getElementById('citizenid')

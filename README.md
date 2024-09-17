@@ -1,6 +1,6 @@
-![](https://socialify.git.ci/jukbot/thai-citizen-id-validator/image?description=1&language=1&pattern=Signal&theme=Light)
-
 # Thai Citizen ID Validator
+
+![thai-citizen-id-validator](https://socialify.git.ci/jukbot/thai-citizen-id-validator/image?description=1&font=Inter&language=1&name=1&pattern=Signal&stargazers=1&theme=Light)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
@@ -10,9 +10,14 @@
 
 A simpler way to validate Thai Citizen Card ID. 🇹🇭
 
-## Further Plans
+## Minimum Node.js Version ⚠️
+
+This package requires Node.js version 16 or later.
+
+## Future Roadmap
 
 - Go Language Implementation Example
+- .NET Language Implementation Example
 - Thai Passport Number Validation
 
 ## Read the article
@@ -39,31 +44,17 @@ $ bun add thai-id-validator
 
 ## Usage
 
-### Javascipt ES5
-
-Just import script with commonjs
-
-```javascript
-var validateThaiID = require('thai-id-validator') // for ES5
-
-var result = validateThaiID(‘1101700207030’);
-
-console.log(result);
-// return true
-```
-
-### Javascript ES6 Module
+### Javascript
 
 In Javascript file, you can use import, export modules
 
 ```javascript
-'use strict';
 import validateThaiID from 'thai-id-validator';
 
 let result = validateThaiID(‘1101700207030’);
 
 console.log(result);
-// return true
+// true
 ```
 
 ## Test
@@ -71,7 +62,7 @@ console.log(result);
 To run all test cases run the following command
 
 ```bash
-npm run test
+bun run test
 ```
 
 You can edit validator.test.js too add your custom test case.
@@ -121,6 +112,6 @@ If you found any 🐞 or feedback, please report the issue [here](https://github
 
 ## License
 
-[Apache2.0](https://www.apache.org/licenses/LICENSE-2.0)
+[MIt](https://opensource.org/license/mit)
 
 Code with love 🦉

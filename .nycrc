@@ -1,0 +1,13 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "tests/*.test.js"
+  ],
+  "all": true,
+  "sourceMap": true,
+  "cache": false,
+  "check-coverage": true,
+  "extension": [".ts"]
+}

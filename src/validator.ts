@@ -1,13 +1,13 @@
-// @ts-check
-'use strict'
-
 /**
- * Checks if a Thai ID is valid.
- *
- * @param {string} id - The Thai ID to validate, a 13-digit string.
- * @returns {boolean} True if the Thai ID is valid, false otherwise.
+ * @author Juk V. <chukkrit.juk@gmail.com>
+ * @see {@link https://github.com/jukbot/thai-citizen-id-validator|GitHub}
  */
-function isValidThaiID (id) {
+
+function isValidThaiID(id: string | number): boolean {
+  // Convert number to string if the ID is a number.
+  if (typeof id === 'number') {
+    id = id.toString()
+  }
   // Check if the ID is a valid string of 13 digits.
   if (!/^\d{13}$/.test(id)) {
     return false
@@ -30,8 +30,7 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   exports.default = isValidThaiID
   exports.isValidThaiID = isValidThaiID
 } else if (typeof window !== 'undefined') {
+  // Support legacy version of the browser.
   // @ts-ignore
   window.isValidThaiID = isValidThaiID
 }
-
-export default isValidThaiID

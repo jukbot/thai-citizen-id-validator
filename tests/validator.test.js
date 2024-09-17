@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test'
-import validateThaiID from '../lib/validator'
+import validateThaiID from '../src/validator'
 
 describe('validateThaiID Function', () => {
   it('Case 1: Valid ID Correct pattern', () => {

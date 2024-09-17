@@ -1,6 +1,15 @@
 .editorconfig
 .npmignore
+.vscode
+.eslintrc
+.nycrc
 .travis.yml
+.bower.json
+.nyc_output
 package-lock.json
-docs/
-jest_result.png
+test-result.png
+tests
+example
+coverage
+node_modules
+coverage.lcov

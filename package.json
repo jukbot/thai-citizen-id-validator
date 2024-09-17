@@ -1,7 +1,7 @@
 {
   "name": "thai-id-validator",
-  "version": "1.1.5",
-  "description": "Thai Citizen ID validator with zero dependencies",
+  "version": "1.1.6",
+  "description": "Thai Citizen ID validator with 0 dependencies",
   "keywords": [
     "thai-citizen-id",
     "id-validator",
@@ -11,53 +11,58 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/validator.umd.js",
-  "module": "./dist/validator.es.js",
+  "type": "module",
+  "types": "./index.d.ts",
+  "main": "./dist/esm/validator.js",
+  "module": "./dist/esm/validator.js",
   "exports": {
     ".": {
-      "import": "./dist/validator.es.js",
-      "require": "./dist/validator.umd.js"
+      "import": "./dist/esm/validator.js"
     }
   },
+  "homepage": "https://github.com/jukbot/thai-citizen-id-validator#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jukbot/thai-citizen-id-validatorr.git"
+    "url": "git+https://github.com/jukbot/thai-citizen-id-validator.git"
   },
   "bugs": {
     "url": "https://github.com/jukbot/thai-citizen-id-validator/issues"
   },
-  "homepage": "https://github.com/jukbot/thai-citizen-id-validator#readme",
   "directories": {
     "dist": "dist",
-    "lib": "lib",
-    "test": "test"
+    "src": "src",
+    "test": "tests"
   },
   "scripts": {
-    "dev": "vite --config vite-docs.config.js",
-    "build": "vite build",
-    "build:lib": "vite build",
-    "build:docs": "vite build --config vite-docs.config.js",
+    "build": "bun run build:browser && bun run build:node",
+    "build:browser": "bun build ./src/validator.ts --outdir dist/browser --target browser --minify",
+    "build:node": "bun build ./src/validator.ts --outdir dist/esm --target node --format esm --minify",
+    "dev:docs": "vite --config vite-docs.config.cjs",
+    "build:docs": "vite build --config vite-docs.config.cjs",
     "lint": "standard",
     "test": "bun test",
-    "coverage": "nyc --reporter=lcov --reporter=text-summary bun test --coverage"
+    "coverage": "nyc --reporter=lcov --reporter=text-summary bun test --coverage",
+    "type-check": "tsc --noEmit"
   },
-  "author": "Juk V.",
+  "author": "Juk V. <chukkrit.juk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^9.2.0",
-    "nyc": "^15.1.0",
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/node": "^22.3.0",
+    "eslint": "^9.9.0",
+    "nyc": "^17.0.0",
     "standard": "^17.1.0",
-    "vite": "^5.2.11"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
   },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "not dead"
-  ],
   "standard": {
     "ignore": [
       "dist/**",
       "docs/**"
     ]
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
 }
