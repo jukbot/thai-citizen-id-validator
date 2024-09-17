@@ -1,6 +1,6 @@
 # Thai Citizen ID Validator
 
-![thai-citizen-id-validator](https://socialify.git.ci/jukbot/thai-citizen-id-validator/image?description=1&font=Inter&language=1&name=1&pattern=Signal&stargazers=1&theme=Light)
+![thai-citizen-id-validator](https://socialify.git.ci/jukbot/thai-citizen-id-validator/image?description=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
