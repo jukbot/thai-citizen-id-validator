@@ -44,14 +44,14 @@ $ bun add thai-id-validator
 
 ## Usage
 
-### Javascript
+### Javascript / Typescript
 
-In Javascript file, you can use import, export modules
+In Javascript, Typescript file, you can use import, export modules
 
 ```javascript
-import validateThaiID from 'thai-id-validator';
+import isValidThaiID from 'thai-id-validator';
 
-let result = validateThaiID(‘1101700207030’);
+let result = isValidThaiID(‘1101700207030’);
 
 console.log(result);
 // true

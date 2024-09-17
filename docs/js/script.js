@@ -1,4 +1,4 @@
-import validateThaiID from '../../dist/browser/validator.js'
+import isValidThaiID from '../../dist/browser/validator.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   const input = document.getElementById('citizenid')
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const isValidLength = value.length === maxLength
     const isValidFormat = regex.test(value)
-    const isThaiIDValid = validateThaiID(value)
+    const isThaiIDValid = isValidThaiID(value)
 
     btn.disabled = !(isValidLength && isValidFormat && isThaiIDValid)
 
