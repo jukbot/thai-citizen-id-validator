@@ -3,6 +3,10 @@
  * @see {@link https://github.com/jukbot/thai-citizen-id-validator|GitHub}
  */
 
+/**
+ * Validate the Thai citizen ID.
+ * @param id The ID to validate.
+ */
 function isValidThaiID(id: string | number): boolean {
   // Convert number to string if the ID is a number.
   if (typeof id === 'number') {

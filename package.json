@@ -15,11 +15,7 @@
   "types": "./index.d.ts",
   "main": "./dist/esm/validator.js",
   "module": "./dist/esm/validator.js",
-  "exports": {
-    ".": {
-      "import": "./dist/esm/validator.js"
-    }
-  },
+  "exports": "./dist/esm/validator.js",
   "homepage": "https://github.com/jukbot/thai-citizen-id-validator#readme",
   "repository": {
     "type": "git",

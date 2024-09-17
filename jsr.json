@@ -1,9 +1,5 @@
 {
-    "name": "@jukbot/thai-id-validator",
-    "version": "1.1.5",
-    "exports": {
-        ".": {
-          "import": "./dist/validator.js"
-        }
-    }
-  }
+  "name": "@jukbot/thai-id-validator",
+  "version": "1.1.6",
+  "exports": "./dist/esm/validator.js"
+}
