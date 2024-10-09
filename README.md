@@ -3,10 +3,10 @@
 ![thai-citizen-id-validator](https://socialify.git.ci/jukbot/thai-citizen-id-validator/image?description=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/d49ee28fb17b476baeb9387e6888b751)](https://app.codacy.com/gh/jukbot/thai-citizen-id-validator/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 [![NPM Download](https://img.shields.io/npm/dt/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/v/thai-id-validator.svg)](https://www.npmjs.com/package/thai-id-validator)
+[![JSR](https://jsr.io/badges/@jukbot/thai-id-validator)](https://jsr.io/@jukbot/thai-id-validator)
 
 A simpler way to validate Thai Citizen Card ID. 🇹🇭
 
@@ -26,6 +26,8 @@ This package requires Node.js version 16 or later.
 
 ## Installation
 
+Works with npm, jsr, yarn, pnpm, bun or deno
+
 ```bash
 $ npm install thai-id-validator
 # or
@@ -34,6 +36,10 @@ $ yarn add thai-id-validator
 $ pnpm add thai-id-validator
 # or
 $ bun add thai-id-validator
+# or
+$ pnpm dlx jsr add @jukbot/thai-id-validator
+# or
+$ deno add jsr:@luca/flag
 ```
 
 ## Data Type
