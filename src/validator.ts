@@ -13,19 +13,19 @@
  * @returns {boolean} - Returns true if the ID is valid, otherwise false.
  * 
  * @example
- * // Valid ID
+ * Valid ID
  * const isValid = isValidThaiID('1112034563562'); // true
  * 
  * @example
- * // Invalid ID (wrong pattern)
+ * Invalid ID (wrong pattern)
  * const isValid = isValidThaiID('1101700230705'); // false
  * 
  * @example
- * // Invalid ID (less than 13 characters)
+ * Invalid ID (less than 13 characters)
  * const isValid = isValidThaiID('110170023073'); // false
  * 
  * @example
- * // Invalid ID (mixed characters)
+ * Invalid ID (mixed characters)
  * const isValid = isValidThaiID('11017002070d3'); // false
  */
 function isValidThaiID(id: string | number): boolean {

@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/release-it/release-it/refs/heads/main/schema/release-it.json",
+    "hooks": {
+      "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    },
+    "git": {
+        "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+        "release": true
+    }
+  }
