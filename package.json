@@ -9,7 +9,8 @@
     "national-id"
   ],
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "type": "module",
   "types": "./index.d.ts",
