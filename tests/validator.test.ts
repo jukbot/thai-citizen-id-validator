@@ -22,4 +22,8 @@ describe('isValidThaiID Function', () => {
   it('Case 5: Invalid ID Mixed characters', () => {
     expect(isValidThaiID('rytege54fsfsf')).toBe(false);
   });
+
+  it('Case 6: Invalid ID First digit start with 0', () => {
+    expect(isValidThaiID('0123456789012')).toBe(false);
+  });
 });
